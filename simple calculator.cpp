@@ -7,6 +7,11 @@ double addition(double a,double b) {
 double power (double a, double b) {
     return pow(a,b);
 }
+
+double squareRoot(double a) {
+    return sqrt(a);
+}
+
 int main() {
     start:
     int first_number,second_number;
@@ -61,7 +66,7 @@ case 4:
 
 break;
 case 5:
-
+cout<<"Result:"<<squareRoot(first_number)<<endl;
 break;
 case 6:
 cout<<"result:"<<power (first_number,second_number)<<endl;
