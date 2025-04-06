@@ -54,7 +54,7 @@ if(choice==1||choice==2||choice==3||choice==4) {
     }
 switch(choice) {
 case 1:
-cout<<"result:"<<addition(firs_number,second_number)<<endl;
+cout<<"result:"<<addition(first_number,second_number)<<endl;
 break;
 case 2:
 
