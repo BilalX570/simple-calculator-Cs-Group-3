@@ -4,6 +4,9 @@ using namespace std;
 double addition(double a,double b) {
     return a+b;
 }
+double substraction(double a, double b) {
+    return a-b;
+}
 double power (double a, double b) {
     return pow(a,b);
 }
@@ -63,7 +66,7 @@ case 1:
 cout<<"result:"<<addition(first_number,second_number)<<endl;
 break;
 case 2:
-
+cout<<"Result:"<<substraction(first_number,second_number)<<endl;
 break;
 case 3:
 
