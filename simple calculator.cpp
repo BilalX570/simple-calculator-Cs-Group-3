@@ -11,6 +11,12 @@ double power (double a, double b) {
 double squareRoot(double a) {
     return sqrt(a);
 }
+double division(double a, double b) {
+    if(b==0) {
+        cout<<"Error division by zero!";
+    }
+    return a/b;
+}
 
 int main() {
     start:
@@ -63,7 +69,7 @@ case 3:
 
 break;
 case 4:
-
+cout<<"Result:"<<division(first_number,second_number)<<endl;
 break;
 case 5:
 cout<<"Result:"<<squareRoot(first_number)<<endl;
