@@ -7,6 +7,9 @@ double addition(double a,double b) {
 double substraction(double a, double b) {
     return a-b;
 }
+double multiplication(double a, double b) {
+    return a*b;
+}
 double power (double a, double b) {
     return pow(a,b);
 }
@@ -69,7 +72,7 @@ case 2:
 cout<<"Result:"<<substraction(first_number,second_number)<<endl;
 break;
 case 3:
-
+cout<<"Result:"<<multiplication(first_number,second_number)<<endl;
 break;
 case 4:
 cout<<"Result:"<<division(first_number,second_number)<<endl;
