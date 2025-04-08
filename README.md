@@ -8,7 +8,7 @@ A command-line calculator implementing basic and advanced mathematical operation
 ## Authors
 
 - [@BilalX570](https://github.com/BilalX570)
-- [@kenu5858](https://github.com/kenu5858)
+- [@kanu5858](https://github.com/kanu5858)
 - [@amhefm](https://github.com/amhefm)
 - [@haymanot13](https://github.com/haymanot13)
 - [@ewmw1221](https://github.com/ewmw1221)
